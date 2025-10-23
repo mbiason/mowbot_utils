@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'joy_remap_node = mowbot_utils.joy_remap:main'
+            'joy_remap_node = mowbot_utils.joy_remap:main',
+            'feed_forward_mixer_node = mowbot_utils.feed_forward_mixer:main'
         ],
     },
 )
